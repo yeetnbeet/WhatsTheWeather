@@ -11,12 +11,11 @@
             <div class="Jumbotron">
                 <h2>Pick The Location</h2>
                 <hr>
-                <div class="input-group flex-nowrap">
-                    <div class="input-group-prepend">
-                          <span class="input-group-text" id="addon-wrapping">Lat</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
-                </div>
+                <form action="/addl" method="POST" >
+                    <input class="text" name="lat" type="text">
+                    <input class="text" name="lng" type="text">
+                    <input  type="submit">
+                </form>
                 
             </div>
         
